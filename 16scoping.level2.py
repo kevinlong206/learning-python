@@ -9,6 +9,3 @@ def outer():
 test = 0 #globa scope
 outer()
 print('global: ', test)
-
-
-outer.inner()

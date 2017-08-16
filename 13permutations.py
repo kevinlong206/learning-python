@@ -1,2 +1,2 @@
 from itertools import permutations
-print(list(permutations('ABCDEF')))
+print(list(permutations('ABC')))
