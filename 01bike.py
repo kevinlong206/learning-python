@@ -15,5 +15,3 @@ print(blue_bike.colour)
 print(blue_bike.frame_material)
 
 red_bike.brake()
-
-
