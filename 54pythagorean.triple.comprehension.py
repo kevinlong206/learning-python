@@ -9,3 +9,9 @@ legs = [(a, b, sqrt(a**2 + b**2))
 legs = [(a, b, int(c)) for a, b, c in legs if c.is_integer()]
 
 print(legs)
+
+print("hello")
+
+x=6
+
+print('goodbye')
