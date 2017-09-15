@@ -1,0 +1,19 @@
+class Book:
+    def __init__(self, title, publisher, pages):
+        self.title = title
+        self.publisher = publisher
+        self.pages = pages
+
+
+class EBook(Book):
+    # BAD PRACTICE, redundant !
+    def __init__(self, title, publisher, pages, format_):
+        Book.__init__(self, title, publisher, pages)
+        self.format_ = format_
+
+
+ebook = EBook('Learning Python', 'packt pub', 360, 'PDF')
+print(ebook.title)
+print(ebook.publisher)
+print(ebook.pages)
+print(ebook.format_)

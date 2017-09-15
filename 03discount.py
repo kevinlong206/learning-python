@@ -10,7 +10,7 @@ products = [
 
 
 for product in products:
-  if product['expiration_date'] != today:
-    continue
-  product['price'] *= 0.8
-  print('Price for sku ', product['sku'], 'is now', product['price'])
+    if product['expiration_date'] != today:
+        continue
+    product['price'] *= 0.8
+    print('Price for sku ', product['sku'], 'is now', product['price'])
