@@ -7,7 +7,7 @@ class Book:
 
 class EBook(Book):
     def __init__(self, title, publisher, pages, format_):
-        Book.__init__(self, title, publisher, pages)
+        super().__init__(title, publisher, pages)
         self.format_ = format_
 
 
